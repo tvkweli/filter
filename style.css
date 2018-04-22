@@ -12,7 +12,7 @@ button {
   font-family: 'Vollkorn', serif;
 }
 
-div {
+.state {
   display: inline-block;
   border: solid 3px #C5C10D;
   background-color: #F1EF93;
@@ -35,7 +35,7 @@ div {
 
 .bigcontainer {
   margin: 5px;
-  margin-left: 25px;
+  margin-left: 30px;
   padding: 5px;
 }
 
