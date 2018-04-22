@@ -1,0 +1,44 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/* Start your base/mobile styles here */
+
+button {
+  cursor: pointer;
+  border: solid 3px #888;
+  outline: none;
+  margin: 5px;
+  padding: 5px;
+  width: 110px;
+}
+
+div {
+  display: inline-block;
+  border: solid 3px #ddd;
+  margin: 5px;
+  padding: 5px;
+  width: 30px;
+}
+
+#final {
+  display: inline-block;
+  border: solid 3px #ddd;
+  margin: 5px;
+  padding: 5px;
+  width: 70px;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  .item {
+    width: 33%;
+    min-height: 310px;
+  }
+  select {
+    width: 33%;
+  }
+}
+
+@media(min-width: 729px) {
+  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+}
