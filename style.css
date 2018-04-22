@@ -3,19 +3,26 @@
 
 button {
   cursor: pointer;
-  border: solid 3px #888;
+  border: solid 3px #FA3909;
+  background-color: #F2994E;
   outline: none;
   margin: 5px;
   padding: 5px;
-  width: 110px;
+  width: 90px;
+  font-family: 'Vollkorn', serif;
 }
 
 div {
   display: inline-block;
-  border: solid 3px #ddd;
-  margin: 5px;
+  border: solid 3px #C5C10D;
+  background-color: #F1EF93;
+  margin: 3px;
+  margin-left: 10px;
   padding: 5px;
-  width: 30px;
+  width: 35px;
+  text-align: center;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
 }
 
 #final {
@@ -24,6 +31,16 @@ div {
   margin: 5px;
   padding: 5px;
   width: 70px;
+}
+
+.bigcontainer {
+  margin: 5px;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.smallcontainer {
+  margin-left: 15px
 }
 
 /* Tablet/Desktop overrides */
