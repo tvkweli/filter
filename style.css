@@ -46,6 +46,37 @@ button {
   margin-left: 15px
 }
 
+.maintext {
+  font-family: 'Questrial', sans-serif;
+  max-width: 100%;
+  margin: 10px;
+}
+
+h1 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 12px;
+  margin: 10px;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  margin: 10px;
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
