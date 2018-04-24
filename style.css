@@ -50,6 +50,7 @@ button {
   font-family: 'Questrial', sans-serif;
   max-width: 100%;
   margin: 10px;
+  opacity: 0.9;
 }
 
 h1 {
