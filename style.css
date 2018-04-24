@@ -114,6 +114,25 @@ h3 {
     font-family: 'Special Elite', cursive;
     border-radius: 8px;
   }
+  img {
+    max-width: 100%;
+    margin-left: 15%;
+  }
+  h3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 15%;
+    max-width: 65%;
+  }
+  .bigcontainer {
+    margin: 5px;
+    margin-left: 20px;
+    padding: 5px;
+  }
+  .smallcontainer {
+    margin-left: 10px
+  }
 }
 
 @media(min-width: 1000px) {
@@ -130,5 +149,44 @@ h3 {
     width: 90%;
     font-family: 'Special Elite', cursive;
     border-radius: 8px;
+  }
+  .maintext {
+    font-family: 'Questrial', sans-serif;
+    max-width: 60%;
+    margin: 20px;
+  }
+  h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 60%;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+  h2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 20px;
+  }
+  .bigcontainer {
+    margin: 5px;
+    /* padding: 5px; */
+    max-width: 60%;
+  }
+  .smallcontainer {
+    margin-left: 40px;
+    max-width: 60%;
+  }
+  img {
+    max-width: 100%;
+    margin-left: 15%;
+  }
+  h3 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 15%;
+    max-width: 65%;
   }
 }
